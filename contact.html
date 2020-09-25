@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Path of Light Yoga Studio</title>
+    <link rel="stylesheet" type="text/css" href="yoga.css" />
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <h1>Path of Light Yoga Studio</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home&nbsp;</a>
+        <a href="classes.html">Classes&nbsp;</a>
+        <a href="Schedule.html">Schedule&nbsp;</a>
+        <a href="contact.html">Contact&nbsp;</a>
+    </nav>
+    <main>
+        <h2>Contact Path of Light Yoga Studio</h2>
+        <p>Required information is marked with an asterisk(*)</p>
+        <form action="http://webdevbasics.net/scripts/yoga.php" method="POST">
+            <label for="myName">* Name:</label>
+            <input type="textbox" name="myName" id="myName" value="" required><br>
+            <label for="myEmail">* E-mail:</label>
+            <input type="email" name="myEmail" id="myEmail" value="" required><br>
+            <label for="media">How did you hear about us?</label>
+            <input list="medias" name="media" id="media">
+            <datalist id="medias">
+                <option value="Google">
+                <option value="Bing">
+                <option value="Facebook">
+                <option value="Friend">
+                <option value="Radio Ad">
+            </datalist>
+            <label for="myComments">* Comments:</label>
+            <textarea rows="2" cols="20" name="myComments" id="myComments" value="" required></textarea>
+            <input type="submit" value="Send Now">
+        </form>
+
+    </main>
+    <footer>Copyright &copy; 2018 Path of light Yoga Studio<br>
+        <a href = "mailto: jboparai@my.wctc.edu">jboparai@my.wctc.edu</a>
+    </footer>
+</div>
+</body>
+</html>
